@@ -1,0 +1,9 @@
+version: "3"
+services:
+  pdf-service:
+    build: .
+    ports:
+      - "5000:80"
+    image: "pdf:7.0"
+    restart: always
+
